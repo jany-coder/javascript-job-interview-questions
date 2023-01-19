@@ -1,5 +1,13 @@
-// Problem-04: How to flatten a multidimensional array?
-// Problem-05: How to use short conditionals?
-// Problem-06: How to replace all occurances of a string?
-// Problem-07: How to log variable with values properly?
-// Problem-08: How to calculate performance of a task/operation?
+// Problem-04: How to flattern a multidimensional array?
+
+// How to flattern a multi-dimensional array
+let smileys = ['🥰', ['😄', '😃'], '😉', ['🥲', '😑']];
+
+// We can use array.flat() method to flattern one level array
+console.log(smileys.flat()); // ['🥰', '😄', '😃', '😉', '🥲', '😑']
+
+// Multi level array
+let smileys2 = ['🥰', ['😄', '😃', ['🥲', '😑']], '😉'];
+
+// We can pass 'Infinity' parameter to array.flat function
+console.log(smileys2.flat(Infinity)); // ['🥰', '😄', '😃', '🥲', '😑', '😉']
