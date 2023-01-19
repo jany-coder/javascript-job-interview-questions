@@ -1,15 +1,6 @@
 // Problem-01: How to remove falsy values from an array?
-// Problem-02: Convart any value to boolean
-// Problem-03: How to resize an array?
-// Problem-04: How to flatten a multidimensional array?
-// Problem-05: How to use short conditionals?
-// Problem-06: How to replace all occurances of a string?
-// Problem-07: How to log variable with values properly?
-// Problem-08: How to calculate performance of a task/operation?
 
 /*
-    Problem-01: How to remove falsy values from an array?
-
     There are 6 falsy values in javascript:
 
     false
@@ -21,3 +12,15 @@
 
 */
 
+// Boolean(expression) in JS returns true/false
+Boolean(5 < 6); //  true
+Boolean(100 > 200); // false
+Boolean('JavaScript'); //true
+Boolean(''); //false
+
+
+// array example
+let miscellaneous = ['apple', false, 'orange', NaN];
+let fruits = miscellaneous.filter(Boolean);
+
+console.log(fruits); // ['apple', 'orange']

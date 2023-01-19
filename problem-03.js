@@ -1,7 +1,3 @@
-# javascript-job-interview-questions
-Javascript job interview question
-// Problem-01: How to remove falsy values from an array?
-// Problem-02: Convart any value to boolean
 // Problem-03: How to resize an array?
 // Problem-04: How to flatten a multidimensional array?
 // Problem-05: How to use short conditionals?
